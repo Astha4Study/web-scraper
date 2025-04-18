@@ -1,56 +1,33 @@
-# Logs
-logs/
+# Node modules
+node_modules/
+
+# Log files
 *.log
 npm-debug.log*
 
-# Runtime data
-pids/
-*.pid
-*.seed
-*.pid.lock
+# Env file
+.env
+.env.*
 
-# Dependency directories
-node_modules/
-
-# Coverage and test reports
+# Coverage & cache
 coverage/
-*.lcov
 .nyc_output/
-
-# Debug and diagnostic reports
-report.*.json
-.pnpm-debug.log*
-
-# Compiled binary addons
-build/Release/
-
-# Cache
 .cache/
-.parcel-cache/
 .eslintcache
 .stylelintcache
-.rpt2_cache/
-.rts2_cache_*/
 
-# TypeScript cache
+# TypeScript cache (jika kamu pakai TS nanti)
 *.tsbuildinfo
 
-# Output of 'npm pack'
+# Pack output
 *.tgz
-
-# Env files
-.env*
-!.env.example
 
 # REPL history
 .node_repl_history
 
-# Yarn v2
-.yarn/cache/
-.yarn/unplugged/
-.yarn/build-state.yml
-.yarn/install-state.gz
-.pnp.*
-
-# VSCode test instance
+# VSCode test environment
 .vscode-test/
+
+# Scraping data (jika kamu save hasilnya ke file)
+scraped-data.json
+temp/
