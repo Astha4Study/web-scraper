@@ -1,0 +1,56 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+
+# Coverage and test reports
+coverage/
+*.lcov
+.nyc_output/
+
+# Debug and diagnostic reports
+report.*.json
+.pnpm-debug.log*
+
+# Compiled binary addons
+build/Release/
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_*/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Output of 'npm pack'
+*.tgz
+
+# Env files
+.env*
+!.env.example
+
+# REPL history
+.node_repl_history
+
+# Yarn v2
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# VSCode test instance
+.vscode-test/
